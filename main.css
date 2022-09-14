@@ -1,0 +1,29 @@
+:root {
+  --color-dark-navy: #1f314f;
+  --color-grey: #7d889e;
+  --color-light-grey: #d5e1ef;
+}
+
+body {
+  background: var(--color-light-grey);
+}
+
+.qr-code-component {
+  background: white;
+}
+
+.qr-code-component__header {
+  color: var(--color-dark-navy);
+}
+
+.qr-code-component__text {
+  color: var(--color-grey);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
